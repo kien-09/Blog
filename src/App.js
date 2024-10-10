@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import {Route, Routes} from "react-router-dom";
+import Home from "./pages/Home";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
+import ListPost from "./pages/ListPost";
+import CreatePost from "./pages/CreatePost";
+import ForgotPassword from "./pages/ForgotPassword";
+import UpdatePost from "./pages/UpdatePost";
+import DetailPost from "./pages/DetailPost";
+import UpdateUser from "./pages/UpdateUser";
+import ProfileUser from "./pages/ProfileUser";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Routes>
+            <Route path={''} element={<Home/>}>
+                <Route path={'create-post'} element={<CreatePost/>}/>
+                <Route path={'/:type?'} element={<ListPost/>}/>
+                <Route path={'update-post/:id'} element={<UpdatePost/>}/>
+                <Route path={'detail-post/:id'} element={<DetailPost/>}/>
+                <Route path={'update-user/:username'} element={<UpdateUser/>}/>
+                <Route path={'profile-user/:username'} element={<ProfileUser/>}/>
+            </Route>
+            <Route path={'register'} element={<Register/>}/>
+            <Route path={'login'} element={<Login/>}/>
+            <Route path={'forgot-password'} element={<ForgotPassword/>}/>
+        </Routes>
+    );
 }
 
 export default App;

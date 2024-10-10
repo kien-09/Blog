@@ -1,0 +1,313 @@
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.Logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.avt {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: relative;
+    right: 10px;
+}
+
+.menu {
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid #d5cdcd;
+}
+
+.register {
+    border: 1px solid;
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    margin: 150px 700px;
+    background-color: white;
+}
+
+.login {
+    border: 1px solid;
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    margin: 150px 700px;
+    background-color: white;
+}
+
+.forgotpassword {
+    border: 1px solid;
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    margin: 150px 700px;
+    background-color: white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.avatar-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+    position: relative;
+}
+
+.nameuser {
+    position: absolute;
+    margin-top: -3px;
+}
+
+.main-item {
+    background-color: white;
+}
+
+.List:hover {
+    background-color: rgb(241, 242, 245);
+    border-radius: 20px;
+}
+
+.List-detail:hover {
+    background-color: rgb(241, 242, 245);
+    border-radius: 20px;
+}
+
+.List-detail {
+    width: 56vw;
+    height: 95vh;
+    display: flex;
+}
+
+.content-detail {
+    margin: 0 20px;
+    width: 40vw;
+}
+
+.totallike {
+    width: 30px;
+    height: 30px;
+    margin-left: 22px;
+}
+
+.aaa {
+    border: unset;
+    background-color: white;
+}
+
+.fa-eye {
+    margin-bottom: 5px;
+}
+
+.ppp {
+    margin-left: 42px;
+}
+
+.Type {
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+.TypePost {
+    height: 100vh;
+    border-right: 1px solid #d5cdcd;
+}
+
+.Type-profile {
+    position: absolute;
+    margin-top: 10px;
+    width: 100px;
+    right: 1px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #efefef;
+    border-radius: 5px;
+}
+
+.eee {
+    border-bottom: 1px solid #d5cdcd;
+}
+
+.active Link {
+    margin-left: 25px;
+}
+
+.active:hover {
+    background-color: rgb(236, 241, 243);
+    border-radius: 50px;
+}
+
+.option {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.option:hover {
+    background-color: #d3d3d3;
+    border-radius: 50px;
+}
+
+.option-top {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.xxx {
+    height: 80px;
+}
+
+.ccc {
+    position: relative;
+    bottom: 100px;
+    margin-left: 670px;
+}
+
+.date {
+    position: relative;
+    bottom: 20px;
+    margin-left: 88px;
+    font-size: 15px;
+}
+
+.content {
+    margin: 0 20px;
+}
+
+.search {
+    text-align: center;
+    margin-left: 600px;
+    background-color: rgb(219, 228, 233);
+    border-radius: 50px;
+    width: 24vw;
+}
+
+.search:hover {
+    background-color: rgb(208, 217, 222);
+}
+
+.ddd:hover {
+    background-color: rgba(129, 125, 125, 0.47);
+}
+
+.likes {
+    background-color: rgb(241, 242, 245);
+    border-radius: 50px;
+    width: 120px;
+}
+
+.unlike:hover {
+    color: blue;
+}
+
+.avt-option {
+    position: relative;
+    left: auto;
+    right: 110px;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.UpdateUser {
+    height: 800px;
+}
+
+.back {
+    border-radius: 100%;
+    background-color: #c5c5c5;
+    width: 25px;
+    height: 25px;
+}
+
+.detail-type {
+    margin: 50px 20px;
+    background-color: #ececec;
+    width: 200px;
+    height: 115px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.userlike {
+    margin-left: 20px;
+}
+
+.avt-profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.kkk {
+    width: 50vw;
+    height: 15vh;
+    margin-left: -110px;
+    margin-bottom: 15vh;
+    position: relative;
+}
+
+.banner {
+    border-radius: 10px;
+}
+
+.kkk-item {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 30px;
+}
+
+.hhh {
+    margin-left: 8vw;
+    margin-top: -5vh;
+}
+
+.active-type {
+    background-color: #ccc;
+}
+
+.profile-type {
+    height: 25px;
+}
